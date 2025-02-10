@@ -1,0 +1,49 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: rgb(211, 136, 148); 
+}
+
+.calculator {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(211, 136, 148);
+    display: inline-block;
+    margin-top: 50px;
+}
+
+input {
+    width: 100px;
+    padding: 5px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.instructions {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 2px solid rgb(211, 136, 148);
+    text-align: left;
+    font-size: 14px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(211, 136, 148); 
+}
